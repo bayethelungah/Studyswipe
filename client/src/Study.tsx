@@ -33,9 +33,7 @@ function GuestDashboard() {
       </div>
       <Spacer height={400} classArgs="m-10" />
       <div className="flex justify-center items-center flex-col gap-2 font-bold">
-        <h2 className=" text-2xl font-bold">
-          Create A Collection Collection as a Guest
-        </h2>
+        <h2 className=" text-2xl font-bold">Create A Collection as a Guest</h2>
         <a href="/Collections" className="btn p-2 text-lg">
           New Collection
         </a>

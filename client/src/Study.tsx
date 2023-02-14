@@ -23,20 +23,20 @@ function GuestDashboard() {
           Log in to save and view other users collections
         </h2>
         <div className="flex justify-center items-center gap-2">
-          <a className="btn p-2" href="/signin">
+          <a className="btn p-2 text-lg font-bold" href="/signin">
             Sign in
           </a>
-          <a className="btn p-2" href="/sign up">
+          <a className="btn p-2 text-lg font-bold" href="/sign up">
             Sign Up
           </a>
         </div>
       </div>
       <Spacer height={400} classArgs="m-10" />
-      <div className="flex justify-center items-center flex-col gap-2">
+      <div className="flex justify-center items-center flex-col gap-2 font-bold">
         <h2 className="text-lg font-bold">
           Create A Collection Collection as a Guest
         </h2>
-        <a href="/Collections" className="btn p-2">
+        <a href="/Collections" className="btn p-2 text-lg">
           New Collection
         </a>
       </div>

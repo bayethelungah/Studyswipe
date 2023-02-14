@@ -43,3 +43,12 @@ p{
   transition: 300ms;
   cursor: pointer;
 }
+
+a{
+  transition: 300ms;
+}
+
+a:hover
+{
+  color: var(--Primary-Color);
+}

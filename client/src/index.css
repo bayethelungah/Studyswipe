@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root
+{
+  --Primary-Color: #FFC121;
+}
+
+p{
+  color: var(--Primary-Color);
+}
+
+
+.btn
+{
+  background-color: var(--Primary-Color);
+  border: 2px solid var(--Primary-Color);
+  border-radius: 20px;
+  color: white;
+  transition: 300ms;
+}
+
+.btn:hover
+{
+  background-color: transparent;
+  color: var(--Primary-Color);
+  cursor: pointer;
+}
+
+.btn-outline
+{
+  border: 2px solid var(--Primary-Color);
+  border-radius: 20px;
+  color: var(--Primary-Color);
+}
+
+.btn-outline:hover
+{
+  background-color: var(--Primary-Color);
+  color: white;
+  transition: 300ms;
+  cursor: pointer;
+}

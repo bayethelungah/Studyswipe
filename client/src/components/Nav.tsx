@@ -5,7 +5,9 @@ type NavProps = {
 function Nav({ isLoggedIn }: NavProps) {
   return (
     <nav className="flex justify-around h-10 mt-2 items-center gap-4 fixed w-screen">
-      <div className="logo font-bold text-3xl">StudySwipe</div>
+      <div className="logo font-bold text-3xl">
+        <a href="/">StudySwipe</a>
+      </div>
       <ul
         className="flex content-center items-center gap-5 font-bold
        text-lg"
@@ -16,7 +18,7 @@ function Nav({ isLoggedIn }: NavProps) {
           </a>
         </li>
         <li>
-          <a href="/study" className="">
+          <a href="/Study" className="">
             Study
           </a>
         </li>

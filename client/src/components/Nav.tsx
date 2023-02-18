@@ -13,7 +13,7 @@ function Nav({ isLoggedIn }: NavProps) {
        text-lg"
       >
         <li>
-          <a href="" className="">
+          <a href="/About" className="">
             About
           </a>
         </li>

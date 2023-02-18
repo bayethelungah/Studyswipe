@@ -38,7 +38,7 @@ function AuthDisplay({ isLoggedIn }: AuthDisplayProps) {
       {isLoggedIn ? (
         <>
           <li>
-            <a href="" className="btn p-2">
+            <a href="/Login" className="btn p-2">
               Login
             </a>
           </li>
